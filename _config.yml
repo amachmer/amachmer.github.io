@@ -1,3 +1,134 @@
-theme: jekyll-theme-minimal
-title: Aaron Machmer
-description: Ich bin Aaron Machmer, Informatiker sowie leidenschaftlicher Bastler und Musiker.
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Aaron Machmer
+title: Head of Center of Competence Cybersecurity
+email: aaron.machmer@tagueri.com
+website: www.amachmer.de
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  amachmer
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+linkedin_username: aaron-machmer
+xing_username: Aaron_Machmer
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://www.tagueri.com/cybersecurity/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  My name is Aaron and I'm Head of Center of Competence for Cybersecurity at Tagueri AG. 
+  As well as leading a team and build up knowledge and enable the team to gain more competencies I also have experience build up new topics and develop innovative products.
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Tagueri AG
+        link: https://www.tagueri.com/cybersecurity/
+        sub_title: Senior Consultant
+        caption: 2020 - Present
+        description: | # this will include new lines to allow paragraphs
+          - Leading a Team of 12 experts on Cybersecurity Topics
+          - Cybersecurity und Software-Update Managementsystem
+          - ISO/IEC 27000 Informationssicherheit and BSI 200 IT Grundschutz
+          - Threat Modelling
+          - Requirements management for regulatory requirements
+
+      - layout: left
+        title: Clausthal University of Technology
+        link: https://www.ifi-hcis.tu-clausthal.de
+        sub_title: Research Assistant at the Chair for Human Centered Information Systems
+        caption: 2016 - 2020
+        description: | # this will include new lines to allow paragraphs
+          - Support on university teaching in various events
+          - Build up and test different studies for various research questions
+          - Cooridnation and development in BMBF research project Pflegebrille 2.0
+
+  - title: Volunteering
+    layout: list
+    content:
+      - layout: left
+        title: Science on the Rocks e.V.
+        link: https://science-on-the-rocks.de
+        caption: 2016 - Present
+        sub_title: Chairman of the Board
+        description: | # this will include new lines to allow paragraphs
+          SotR e.V. is an association whose mission is to promote science and research, with our focus on supporting science communication. 
+          We founded this association because science is what moves us forward, what makes us fly, what makes the world a little better and easier. 
+          In short: because we are enthusiastic! We want to offer the possibility to make science more vivid and understandable for EVERYONE in order to create more understanding and acceptance.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Master of Science (M. Sc.) in Computer Science
+        caption: 2018 - 2020
+        sub_title: Clausthal University of Technology
+
+      - layout: top-middle
+        title: Bachelormof Science (B.Sc.) in Computer Science
+        caption: 2015 - 2018
+        sub_title: Clausthal University of Technology    
+
+  - title: Certification
+    layout: list
+    content:
+      - layout: top-middle
+        title: Certified Professional for Requirements Engineering (CPRE)
+      - layout: top-middle
+        title: Information Security Officer ISO/IEC 27000 ff. 
+
+  - title: More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in security and software some of my other interests and hobbies are:
+      - Swimming
+      - Cycling
+      - Playing the drums
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
