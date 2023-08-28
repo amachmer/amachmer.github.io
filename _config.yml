@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Aaron Machmer
 title: Head of Center of Competence Cybersecurity
-website: www.amachmer.de
+website: https://amachmer.de
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -46,12 +46,12 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  My name is Aaron and I'm Head of Center of Competence for Cybersecurity at Tagueri AG. 
-  As well as leading a team and build up knowledge and enable the team to gain more competencies I also have experience build up new topics and develop innovative products.
+# about_content: | # this will include new lines to allow paragraphs
+#  My name is Aaron and I'm Head of Center of Competence for Cybersecurity at Tagueri AG. 
+#  As well as leading a team and build up knowledge and enable the team to gain more competencies I also have experience build up new topics and develop innovative products.
 
 # Footer
-footer_show_references: false
+footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
