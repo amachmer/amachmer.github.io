@@ -6,9 +6,8 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-about_profile_image: images/profile.jpg
 name: Aaron Machmer
-title: Head of Center of Competence Cybersecurity
+title: Head of Cybersecurity
 website: https://amachmer.de
 
 # Dark Mode (true/false/never)
@@ -31,9 +30,9 @@ xing_username: Aaron_Machmer
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: https://tagueri.com/cybersecurity/
   icon: fas fa-globe
-  url: https://www.tagueri.com/cybersecurity/
+  url: https://tagueri.com/cybersecurity/
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -53,7 +52,7 @@ additional_links:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Tagueri AG
 
 # Build settings
 remote_theme: sproogen/resume-theme
